@@ -251,7 +251,7 @@ h1, h2, p, a, span{
 		}
 			.header-menu li {
 				position: relative;
-        		-webkit-transform: translateZ(0); /** To avoid a flash when hover messages **/
+        		transform: translateZ(0); /** To avoid a flash when hover messages **/
 			}
 				.header-menu-tab {
 					padding: 0 27px;
@@ -278,12 +278,12 @@ h1, h2, p, a, span{
 					border-radius: 100%;
 					top: 15px;
 					right: 2px;
-					-webkit-transition: all .3s linear;
+					transition: all .3s linear;
 					transition: all .3s linear;
 				}
 					.header-menu li:hover .header-menu-number {
 						text-decoration: none;
-						-webkit-transform: rotate(360deg);
+						transform: rotate(360deg);
 						transform: rotate(360deg);
 
 					}
